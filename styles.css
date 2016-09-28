@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica;
+  width: 98%;
+  margin: 1.5% auto;
+}
+
+.octodex {
+  display: inline;
+  padding: 0;
+
+}
+
+.octocat {
+  width: 31%;
+  margin: 1%;
+  /*background: pink;*/
+  display: inline-block;
+  position: relative;
+
+}
+
+.octodex .octocat img {
+  max-width: 100%;
+  border: .1em solid #cacaca;
+  border-radius: 2px;
+  display: block;
+}
+
+.image-footer {
+  /*background: pink;*/
+  height: 2%;
+  margin: 1% 0 1% 0;
+  display: inline;
+}
+
+.image-footer ul {
+  font-size: 0;
+}
+.image-footer li {
+  font-size: 1em;
+  display: inline;
+
+}
+
+.image-number:before{
+  content: "#";
+  font-size: 1em;
+}
+
+.image-number {
+  color: #cacaca;
+  font-weight: bold;
+  float: left;
+  font-size: 1em;
+}
+
+.image-caption {
+  text-align: right;
+  /*background: rgb(252, 216, 144);*/
+  position: relative;
+  display: inline-block;
+  border-bottom: .1em solid #cacaca;
+}
+
+.image-caption ul {
+  font-size: 0px;
+}
+
+.image-caption ul li {
+  display: inline-block;
+  width: 10%;
+  border-radius: 10px;
+}
+
+.image-caption img {
+  width: 100%;
+  margin: 1%;
+  padding: 2%;
+}
+
+.image-caption span {
+  color: #777777;
+  font-weight: bold;
+}
+
+.image-caption a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
